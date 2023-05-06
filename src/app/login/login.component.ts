@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class LoginComponent {
   public email= '';
   public password = '';
-  
+  public confirmPassword = '';
 }

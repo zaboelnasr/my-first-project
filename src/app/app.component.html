@@ -451,7 +451,28 @@
       </svg>
     </a>
   </div>
+  <div>
 
+    <form>
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email" required>
+      <span>email address entered: {{ email }}</span>
+  
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+      <span>Password entered: {{ password }}</span>
+  
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required>
+      <span>Confirm password entered: {{ confirmPassword }}</span>
+      <button type="submit">Login</button>
+  
+    
+    </form>
+    
+
+  </div>
+  
   <!-- Footer -->
   <footer>
       Love Angular?&nbsp;
